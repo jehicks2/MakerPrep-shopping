@@ -1,0 +1,231 @@
+<! DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Shopping</title>
+	<link rel= "stylesheet" href="CSS/bootstrap.min.css">
+	
+	<link rel="stylesheet" href= "test.css">
+<script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+<body>
+
+<header>
+ <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="test.html">Here&Now</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="test.html">Home</a></li>
+            <li><a href="#explore">Explore</a></li>
+             <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Catagories<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+              	 <li class="dropdown-header">From Page to Screen</li>
+                <li><a href="#">Books</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Friends to Earbuds</li>
+                <li><a href="ecommerceMusic.html">Music</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+</header>
+
+<div class="container">
+
+      <div class="starter-template">
+        <h1>Shopping for kids Here&Now</h1>
+        <p class="lead">From <b>books</b> to <b>music</b>, shop the latest and greatest products for kids and teens.<br/>
+        	Take a look around, if we don't have it and you want it, let us know!</p>
+      </div>
+
+</div>
+
+<div id= "contentArea">
+	<div id= "book1">
+		<div id= "twilight" class= "book product">
+			<div class= "name"> </div>
+			<div class= "catagory"></div>
+			<div class= "price"></div>
+			<div class= "description"></div>
+			<div class= "picture" src=''></div>
+			<div class= "sellingPoints"></div>
+		</div>
+	</div><br/>
+	<div id= "book2">
+		<div id= "harryPotter" class= "book product">
+			<div class= "name"></div>
+			<div class= "catagory"></div>
+			<div class= "price"></div>
+			<div class= "description"> </div>
+			<div class= "picture" src=''></div>
+			<div class= "sellingPoints"></div>
+		</div>
+	</div><br/>
+	<div id= "book3">
+		<div id= "hungerGames" class= "book product">
+			<div class= "name"></div>
+			<div class= "catagory"></div>
+			<div class= "price"></div>
+			<div class= "description"></div>
+			<div class= "picture" src=''></div>
+			<div class= "sellingPoints"></div>
+		</div>
+	</div><br/>
+	<div id= "album1">
+		<div id= "kidxBop" class= "music product">
+			<div class= "name"> </div>
+			<div class= "catagory"> </div>
+			<div class= "price"></div>
+			<div class= "description"></div>
+			<div class= "picture" src=''></div>
+			<div class= "sellingPoints"></div>
+		</div>
+	</div><br/>
+	<div id= "album2">
+		<div id= "taylowSwift" class= "music product">
+			<div class= "name"></div>
+			<div class= "catagory"></div>
+			<div class= "price"></div>
+			<div class= "description"></div>
+			<div class= "picture" src=''></div>
+			<div class= "sellingPoints"></div>
+		</div>
+	</div><br/>
+	<div id= "album3">
+		<div id= "disneyClassic" class= "music product">
+			<div class= "name"></div>
+			<div class= "catagory"></div>
+			<div class= "price"></div>
+			<div class= "description"></div>
+			<div class= "picture" src=''></div>
+			<div class= "sellingPoints"></div>
+		</div>
+	</div><br/>
+</div>
+
+<script type= "text/javascript">
+var book1 = {
+	name: "Twilight",
+	catagory: ["Book", "Teen Romance", "Teen Paranormal"],
+	description: "Girl meets boy. Boy turns out to be vampire. Girl falls in love with boy. Boy struggles with her love. A-mazing.",
+	pictureURL: "http://ecx.images-amazon.com/images/I/41MLd2DZYwL._AA160_.jpg",
+	price: 15.99,
+	sellingPoints:["Forbidden Love", "Love Triangle"]
+};
+var book2 = {
+	name: "Harry Potter and the Sorcerers Stone",
+	catagory: ["Book", "Kid's Fantasy", "Kid's Adveture", "Teen Fantasy", "Teen Adventure"],
+	description: "Abused boy finds out he is a wizard. Goes to a wizarding school to learn all that he can. Makes two friends, goes on an adventure to basically save the world.",
+	pictureURL: "http://ecx.images-amazon.com/images/I/51MU5VilKpL._AA160_.jpg",
+	price: 16.99,
+	sellingPoints:["Magic", "Wands", "Creatures", "Villans", "Comedy", "Adventure", "This is the ideal book for anyone that breaths oxygen."]
+};
+var book3 = {
+	name: "The Hunger Games",
+	catagory:["Book", "Teen Fantasy", "Teen Adventure", "Teen Dystopia", "Teen Romance", "Teen Action"],
+	description: "A country that is broken up draws names for a deadly competition. Girl volunteers to save her sister. Fights for survival during the competition. You know, normal teenage stuff.",
+	pictureURL: "http://ecx.images-amazon.com/images/I/41bOj-am1RL._AA160_.jpg",
+	price: 15.99,
+	sellingPoints:["Awesome Girl Power", "Amazing Action", "Nonstop Adrenaline", "A page turner, no doubt."]
+};
+var album1 = {
+	name:"Kidzbop 28",
+	catagory: ["Music","Music Cover", "Kids", "Pop", "Rock", "Hip-Hop"],
+	description: "Covers of today's best hits sung by kids.",
+	pictureURL: "http://ecx.images-amazon.com/images/I/61yzePb3qKL._AA160_.jpg",
+	price: 12.99,
+	sellingPoints:["Listen to kids just like you sing radio hits!"]
+};
+var album2 = {
+	name: "Taylor Swift",
+	catagory: ["Music", "Country", "Pop"],
+	description:"The biggest artis of today's first pop album! Get it here!",
+	pictureURL: "http://ecx.images-amazon.com/images/I/41q3uhpDctL._AA160_.jpg",
+	price: 16.99,
+	sellingPoints:["Why not get in on the biggest artis of the decade?!", "Climb the charts with Taylor Swift as she dominates the world!"]
+};
+var album3 = {
+	name: "Disney Classics",
+	catagory: ["Music", "Disney", "Oldies", "Musical", "Cartoon"],
+	description: "Listen to the best of Disney in this compilation of greatest hits.",
+	pictureURL: "http://ecx.images-amazon.com/images/I/51Jnmv-fXuL._AA160_.jpg",
+	price: 13.99,
+	sellingPoints:["All the best hits of Disney movies in one place!", "Sing and remember all the great movies and songs from Disney."]
+};
+
+$('#book1 .name').text(book1.name);
+$('#book1 .catagory').text(book1.catagory);
+$('#book1 .description').text(book1.description);
+$('#book1 .picture').src(book1.pictureURL);
+$('#book1 .price').text(book1.price);
+$('#book1 .sellingPoints').text(book1.sellingPoint);
+
+$('#book2 .name').text(book1.name);
+$('#book2 .catagory').text(book1.catagory);
+$('#book2 .description').text(book1.description);
+$('#book2 .pictureURL').src(book1.pictureURL);
+$('#book2 .price').text(book1.price);
+$('#book2 .sellingPoints').text(book1.sellingPoint);
+
+$('#book3 .name').text(book1.name);
+$('#book3 .catagory').text(book1.catagory);
+$('#book3 .description').text(book1.description);
+$('#book3 .pictureURL').src(book1.pictureURL);
+$('#book3 .price').text(book1.price);
+$('#book3 .sellingPoints').text(book1.sellingPoint);
+
+$('#album1 .name').text(album1.name);
+$('#album1 .catagory').text(album1.catagory);
+$('#album1 .description').text(album1.description);
+$('#album1 .pictureURL').src(album1.pictureURL);
+$('#album1 .price').text(album1.price);
+$('#album1 .sellingPoints').text(album1.sellingPoint);
+
+$('#album2 .name').text(album1.name);
+$('#album2 .catagory').text(album1.catagory);
+$('#album2 .description').text(album1.description);
+$('#album2 .pictureURL').src(album1.pictureURL);
+$('#album2 .price').text(album1.price);
+$('#album2 .sellingPoints').text(album1.sellingPoint);
+
+$('#album3 .name').text(album3.name);
+$('#album3 .catagory').text(album3.catagory);
+$('#album3 .description').text(album3.description);
+$('#album3 .pictureURL').src(album.pictureURL);
+$('#album3 .price').text(album3.price);
+$('#album3 .sellingPoints').text(album3.sellingPoint);
+</script>
+
+
+
+
+<footer>Copyright TwitterBootstrap</footer>
+
+    
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="JS/bootstrap.min.js"></script>
+    
+</body>
+</html>
